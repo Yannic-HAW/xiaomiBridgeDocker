@@ -1,1 +1,1 @@
-exec $JAVA_HOME/bin/java -jar XiaomiBridge.jar $@
+exec java -jar XiaomiBridge.jar $@
