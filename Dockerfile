@@ -4,4 +4,4 @@ MAINTAINER Yannic Wilkening
 
 COPY XiaomiBridge.jar /usr
 WORKDIR /usr
-CMD ["java", "-jar XiaomiBridge.jar"]
+CMD ["java", "-jar", "XiaomiBridge.jar"]
