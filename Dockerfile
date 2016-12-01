@@ -2,6 +2,6 @@ FROM openjdk:8-jdk-alpine
 
 MAINTAINER Yannic Wilkening
 
+COPY start.sh /usr
 COPY XiaomiBridge.jar /usr
-WORKDIR /usr
-CMD ["java", "-jar", "XiaomiBridge.jar"]
+ENTRYPOINT ["/usr/start.sh"]
